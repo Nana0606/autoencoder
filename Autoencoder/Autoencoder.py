@@ -36,9 +36,6 @@ def train(x_train):
     # build autoencoder, encoder, decoder
     autoencoder = Model(inputs=input_image, outputs=decode_output)
     encoder = Model(inputs=input_image, outputs=hidden_layer)
-    # decode_input = Input(shape=(ENCODING_DIM_OUTPUT,))
-    # decode_layer = autoencoder.layers[-1]   # retrieve the last layer of the autoencoder model
-    # decoder = Model(inputs=decode_input, outputs=decode_layer(decode_input))
 
     # compile autoencoder
     autoencoder.compile(optimizer='adam', loss='mse')
