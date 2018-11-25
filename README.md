@@ -1,5 +1,7 @@
 # Autoencoder
-主要包括自编码器及其变形的理论+实践。因时间原因，代码中epoch设置的较小，实际状况下，肯定要更大。
+主要包括自编码器及其变形的理论+实践。
+
+因时间原因，代码中epoch设置的较小，实际状况下，肯定要更大。
 
 ## 主要内容
 暂时代码包括普通自编码器（Autoencoder.py）、栈式自编码器（StackAutoencoder）、稀疏自编码器（SparseAutoencoder.py）和去噪自编码器（DenoisingAutoencoder.py）的简单实现，代码每一步都有注释。
