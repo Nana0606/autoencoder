@@ -62,5 +62,19 @@
 - Denoising Autoencoder生成图片和原图片对比
 <div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/denoisingAe_generate_comparison.png" width="90%" alt="栈式自动编码器生成图片和原图片对比"/></div>
 
+### 5、卷积自编码器：
+
+- 卷积自动编码器架构图
+<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/convAe_structure.png" width="60%" alt="卷积自动编码器架构图"/></div>
+
+- Convolutional Autoencoder生成图片和原图片对比
+<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/convAe_generate_comparison.png" width="90%" alt="卷积自动编码器生成图片和原图片对比"/></div>
+
+- Convolutional Autoencoder训练accuracy和loss变化图
+<div align=center>
+  <img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/convAe_accuracy.png" width="45%" alt="卷积自动编码器accuracy变化"/>
+  <img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/convAe_loss.png" width="45%" alt="卷积自动编码器loss变化"/>
+</div>
+
 ## PDF整理
 PDF来源于本人的理解+整理，部分图片来源于网上，已有标注，PDF对应博客详见：https://blog.csdn.net/quiet_girl/article/details/84401029 。
