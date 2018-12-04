@@ -1,6 +1,9 @@
 # Autoencoder
 主要包括自编码器及其变形的理论+实践。
 
+## PDF整理
+PDF来源于本人的理解+整理，部分图片来源于网上，已有标注，PDF对应博客详见：https://blog.csdn.net/quiet_girl/article/details/84401029 。
+
 因时间原因，代码中epoch设置的较小，实际状况下，肯定要更大。
 
 ## 主要内容
@@ -76,5 +79,3 @@
   <img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/convAe_loss.png" width="45%" alt="卷积自动编码器loss变化"/>
 </div>
 
-## PDF整理
-PDF来源于本人的理解+整理，部分图片来源于网上，已有标注，PDF对应博客详见：https://blog.csdn.net/quiet_girl/article/details/84401029 。
