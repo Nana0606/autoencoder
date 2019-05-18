@@ -57,7 +57,7 @@ def train(x_train):
 
     return encoder, autoencoder, history_record
 
-def plotAccuray(history_record):
+def plot_accuray(history_record):
     """
     plot the accuracy and loss line.
     :param history_record:
@@ -75,7 +75,7 @@ def plotAccuray(history_record):
     plt.legend()
     plt.show()
 
-def showImages(decode_images, x_test):
+def show_images(decode_images, x_test):
     """
     plot the images.
     :param decode_images: the images after decoding
@@ -117,9 +117,9 @@ if __name__ == '__main__':
 
     # show images
     decode_images = autoencoder.predict(x_test)
-    showImages(decode_images, x_test)
+    show_images(decode_images, x_test)
 
-    plotAccuray(history_record)
+    plot_accuray(history_record)
 
 
 

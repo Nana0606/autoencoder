@@ -51,7 +51,7 @@ def train(x_train):
 
     return encoder, autoencoder
 
-def plotRepresentation(encode_images, y_test):
+def plot_representation(encode_images, y_test):
     """
     plot the hidden result.
     :param encode_images: the images after encoding
@@ -63,7 +63,7 @@ def plotRepresentation(encode_images, y_test):
     plt.colorbar()
     plt.show()
 
-def showImages(decode_images, x_test):
+def show_images(decode_images, x_test):
     """
     plot the images.
     :param decode_images: the images after decoding
@@ -103,8 +103,8 @@ if __name__ == '__main__':
 
     # test and plot
     encode_images = encoder.predict(x_test)
-    plotRepresentation(encode_images, y_test)
+    plot_representation(encode_images, y_test)
 
     # show images
     decode_images = autoencoder.predict(x_test)
-    showImages(decode_images, x_test)
+    show_images(decode_images, x_test)

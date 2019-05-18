@@ -52,7 +52,7 @@ def train(x_train_noisy, x_train):
 
     return encoder, autoencoder
 
-def addNoise(x_train, x_test):
+def add_noise(x_train, x_test):
     """
     add noise.
     :return:
@@ -65,7 +65,7 @@ def addNoise(x_train, x_test):
 
     return x_train_noisy, x_test_noisy
 
-def plotRepresentation(encode_images, y_test):
+def plot_representation(encode_images, y_test):
     """
     plot the hidden result.
     :param encode_images: the images after encoding
@@ -77,7 +77,7 @@ def plotRepresentation(encode_images, y_test):
     plt.colorbar()
     plt.show()
 
-def showImages(decode_images, x_test):
+def show_images(decode_images, x_test):
     """
     plot the images.
     :param decode_images: the images after decoding
@@ -113,17 +113,17 @@ if __name__ == '__main__':
     x_test = x_test.reshape((x_test.shape[0], -1))
 
     # Step4: add noisy
-    x_train_noisy, x_test_noisy = addNoise(x_train, x_test)
+    x_train_noisy, x_test_noisy = add_noise(x_train, x_test)
     # show the contrast before noising and after noising.
-    showImages(x_test_noisy, x_test)
+    show_images(x_test_noisy, x_test)
 
     # Step5： train
     encoder,autoencoder = train(x_train_noisy=x_train_noisy, x_train=x_train)
 
     # test and plot
     encode_images = encoder.predict(x_test_noisy)
-    plotRepresentation(encode_images, y_test)
+    plot_representation(encode_images, y_test)
 
     # show images
     decode_images = autoencoder.predict(x_test_noisy)
-    showImages(decode_images, x_test_noisy)
+    show_images(decode_images, x_test_noisy)

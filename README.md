@@ -21,61 +21,61 @@ PDF来源于本人的理解+整理，部分图片来源于网上，已有标注�
 ### 1、普通自编码器：
 
 - 简单自动编码器架构图
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/ae_structure.png" width="60%" alt="自动编码器架构图"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/ae_structure.png" width="60%" alt="自动编码器架构图"/></div>
 
 - Encoder层输出结果可视化
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/ae_encoder_result.png" width="40%" alt="自动编码器Encoder层输出结果可视化"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/ae_encoder_result.png" width="40%" alt="自动编码器Encoder层输出结果可视化"/></div>
 
 - Autoencoder生成图片和原图片对比
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/ae_generate_comparison.png" width="90%" alt="自动编码器生成图片和原图片对比"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/ae_generate_comparison.png" width="90%" alt="自动编码器生成图片和原图片对比"/></div>
 
 ### 2、栈式自编码器：
 
 - 栈式自动编码器架构图
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/stackAe_structure.png" width="60%" alt="栈式自动编码器架构图"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/stackAe_structure.png" width="60%" alt="栈式自动编码器架构图"/></div>
 
 - Encoder层输出结果可视化
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/stackAe_encoder_result.png" width="40%" alt="栈式自动编码器Encoder层输出结果可视化"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/stackAe_encoder_result.png" width="40%" alt="栈式自动编码器Encoder层输出结果可视化"/></div>
 
 - Stack Autoencoder生成图片和原图片对比
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/stackAe_generate_comparison.png" width="90%" alt="栈式自动编码器生成图片和原图片对比"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/stackAe_generate_comparison.png" width="90%" alt="栈式自动编码器生成图片和原图片对比"/></div>
 
 ### 3、稀疏自编码器：
 
 - 稀疏自动编码器架构图
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/sparseAe_structure.png" width="60%" alt="稀疏自动编码器架构图"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/sparseAe_structure.png" width="60%" alt="稀疏自动编码器架构图"/></div>
 
 - Encoder层输出结果可视化
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/sparseAe_encoder_result.png" width="40%" alt="栈式自动编码器Encoder层输出结果可视化"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/sparseAe_encoder_result.png" width="40%" alt="栈式自动编码器Encoder层输出结果可视化"/></div>
 
 - Sparse Autoencoder生成图片和原图片对比
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/sparseAe_generate_comparison.png" width="90%" alt="栈式自动编码器生成图片和原图片对比"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/sparseAe_generate_comparison.png" width="90%" alt="栈式自动编码器生成图片和原图片对比"/></div>
 
 ### 4、去噪自编码器：
 
 - 去噪自动编码器架构图
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/denoisingAe_structure.png" width="60%" alt="栈式自动编码器架构图"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/denoisingAe_structure.png" width="60%" alt="栈式自动编码器架构图"/></div>
 
 - Encoder层输出结果可视化
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/denoisingAe_encoder_result.png" width="40%" alt="栈式自动编码器Encoder层输出结果可视化"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/denoisingAe_encoder_result.png" width="40%" alt="栈式自动编码器Encoder层输出结果可视化"/></div>
 
 - Denoising Autoencoder原图片和添加噪声后图片对比
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/noising_data.png" width="90%" alt="栈式自动编码器原图片和添加噪声后图片对比"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/noising_data.png" width="90%" alt="栈式自动编码器原图片和添加噪声后图片对比"/></div>
 
 - Denoising Autoencoder生成图片和原图片对比
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/denoisingAe_generate_comparison.png" width="90%" alt="栈式自动编码器生成图片和原图片对比"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/denoisingAe_generate_comparison.png" width="90%" alt="栈式自动编码器生成图片和原图片对比"/></div>
 
 ### 5、卷积自编码器：
 
 - 卷积自动编码器架构图
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/convAe_structure.png" width="60%" alt="卷积自动编码器架构图"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/convAe_structure.png" width="60%" alt="卷积自动编码器架构图"/></div>
 
 - Convolutional Autoencoder生成图片和原图片对比
-<div align=center><img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/convAe_generate_comparison.png" width="90%" alt="卷积自动编码器生成图片和原图片对比"/></div>
+<div align=center><img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/convAe_generate_comparison.png" width="90%" alt="卷积自动编码器生成图片和原图片对比"/></div>
 
 - Convolutional Autoencoder训练accuracy和loss变化图
 <div align=center>
-  <img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/convAe_accuracy.png" width="45%" alt="卷积自动编码器accuracy变化"/>
-  <img src="https://github.com/Nana0606/Autoencoder/blob/master/imgs/convAe_loss.png" width="45%" alt="卷积自动编码器loss变化"/>
+  <img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/convAe_accuracy.png" width="45%" alt="卷积自动编码器accuracy变化"/>
+  <img src="https://github.com/Nana0606/autoencoder/blob/master/imgs/convAe_loss.png" width="45%" alt="卷积自动编码器loss变化"/>
 </div>
 
